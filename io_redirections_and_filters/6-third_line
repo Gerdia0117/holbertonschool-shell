@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f3 iacta
+awk 'FNR == 3' iacta
